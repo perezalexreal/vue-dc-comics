@@ -13,7 +13,7 @@
             <div class="footer-nav">
                 <h1>dc</h1>
                 <p>Terms Of User</p>
-                <p>Privacy Policy ( New ) </p>
+                <p>Privacy Policy (New) </p>
                 <p>Ad Choices</p>
                 <p>Avertising</p>
                 <p>Jobs</p>
@@ -40,7 +40,6 @@
          
         </div>
            <img class="logo-footer" src="../assets/dc-logo-bg.png" alt="">
-        <div class="bottom-footer"></div>
     </div>
 </template>
 

@@ -5,6 +5,7 @@
     <MainContainer/>
     <Benefits/>
     <Footer/>
+    <FooterBottom/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Jumbotron from "./components/Jumbotron.vue";
 import Benefits from "./components/Benefits.vue";
 import MainContainer from "./components/MainContainer.vue";
 import Footer from "./components/Footer.vue";
+import FooterBottom from "./components/FooterBottom.vue";
 
 export default {
   name: "App",
@@ -22,7 +24,8 @@ export default {
     Jumbotron,
     Benefits,
     MainContainer,
-    Footer
+    Footer,
+    FooterBottom
   },
   data() {
     return {
