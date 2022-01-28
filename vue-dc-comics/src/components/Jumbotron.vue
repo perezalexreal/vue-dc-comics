@@ -1,5 +1,5 @@
 <template>
-    <div class="main"></div>
+    <div class="jumbotron"></div>
 </template>
 
 <script>
@@ -9,10 +9,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .main {
-      background-color: #1c1c1c;
+  .jumbotron {
+      background: url('../assets/jumbotron.jpg') no-repeat;
       background-size: cover;
-      padding: 20px 20px;
-      height: 200px;
+      height: 400px;
   }
 </style>
