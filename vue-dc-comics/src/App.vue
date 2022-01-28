@@ -4,6 +4,7 @@
     <Jumbotron/>
     <MainContainer/>
     <Benefits/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderBox from "./components/HeaderBox.vue";
 import Jumbotron from "./components/Jumbotron.vue";
 import Benefits from "./components/Benefits.vue";
 import MainContainer from "./components/MainContainer.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -19,7 +21,8 @@ export default {
     HeaderBox,
     Jumbotron,
     Benefits,
-    MainContainer
+    MainContainer,
+    Footer
   },
   data() {
     return {
