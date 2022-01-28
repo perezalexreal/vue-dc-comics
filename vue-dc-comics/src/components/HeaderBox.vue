@@ -3,36 +3,7 @@
         <img class="logo-image" src="@/assets/dc-logo.png" alt="">
         <div>
             <ul>
-                <li>
-                    Characters
-                </li>
-                <li>
-                    Comics
-                </li>
-                <li>
-                    Movies
-                </li>
-                <li>
-                    TV
-                </li>
-                <li>
-                    Games
-                </li>
-                <li>
-                    Collectibles
-                </li>
-                <li>
-                    Videos
-                </li>
-                <li>
-                    Fans
-                </li>
-                <li>
-                    News
-                </li>
-                <li>
-                    Shop
-                </li>
+                <li v-for="(link,index) in nav" :key="index"> {{ link }}</li>
             </ul>
         </div>
     </header>
@@ -40,7 +11,12 @@
 </template>
 
 <script>
+
 export default {
+
+    props: {
+        nav: Array
+    } 
 
 }
 </script>
